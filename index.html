@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTT Software Co.,Ltd</title>
+    <!-- fav icon  -->
+    <link href="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png" rel="icon">
+
+    <!-- bootstrap cs1 js1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css  -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        
+
+        .banners {
+            height: 100vh;
+            background: linear-gradient(20deg,
+                    steelblue 30%,
+                    skyblue 0% 100%);
+
+            background-size: 5%;
+
+            transition: all 2s;
+        }
+
+        .banners:hover{
+            background-size: 5.5%;
+            background-position: center;
+        }
+
+        .cardhovers:hover {
+            box-shadow: -7px 5px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .maps {
+            width: 100%;
+            /* height: 200px; */
+            height: 40vh;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- start header section  -->
+
+    <header>
+
+        <!-- start navbar  -->
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a href="#" class="navbar-brand mx-3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png" width="50"
+                    alt="sitelogo">
+                <span class="ms-2">PTT Software Co,.Ltd</span>
+            </a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i
+                    class="navbar-toggler-icon"></i></button>
+
+            <div id="nav" class="navbar-collapse collapse justify-content-between">
+                <ul class="navbar-nav px-3">
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Clients</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">About</a></li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="nav-link text-uppercase fw-bold dropdown-toggle" data-bs-toggle="dropdown">
+                            Software
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-item">Andriod App</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">ISO App</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Linux App</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Window App</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Priceing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Contact</a></li>
+                </ul>
+
+                <div class="px-3">
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-0">Sign-up</a>
+                </div>
+            </div>
+
+
+        </nav>
+
+        <!-- end navbar  -->
+
+
+        <!-- start banner  -->
+
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center banners">
+                <div class="col-md-10 text-center">
+                    <h1 class="display-2">
+                        <span class="text-primary text-uppercase">ptt</span> <span
+                            class="text-capitalize text-light">software development company</span>
+                    </h1>
+                    <h2 class="fst-italic fw-light text-light">
+                        we help compaines to digitalize their businesses
+                    </h2>
+                    <p class="text-secondary">properly set processes. transparent cooperation. predictable delivery</p>
+                    <a href="#" class="btn btn-warning btn-lg rounded-0" data-bs-toggle="modal"
+                        data-bs-target="#loginmodal">
+                        get in touch
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- end banner  -->
+
+    </header>
+
+    <!-- end header section  -->
+
+    <!-- start clinet section  -->
+
+    <section class="bg-light p-5">
+
+        <div class="container-fluid">
+
+            <!-- start title  -->
+
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Our Clients</h2>
+                <p class="text-muted lead">Projects We successfully Developed. One look is worth a thousand words</p>
+            </div>
+
+
+            <!-- end title  -->
+
+            <div class="row text-center">
+
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-info cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">Toyota</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit quaerat illum
+                                doloremque.
+                            </p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-info cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">Mazda</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit quaerat illum
+                                doloremque.
+                            </p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-info cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">KIA</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit quaerat illum
+                                doloremque.
+                            </p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-info cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">Suzuki</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit quaerat illum
+                                doloremque.
+                            </p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-warning cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">Samsaung</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit quaerat illum
+                                doloremque.
+                            </p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-warning cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">Mi</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit quaerat illum
+                                doloremque.
+                            </p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-warning cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">Sony</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit quaerat illum
+                                doloremque.
+                            </p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-warning cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">Oppo</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit quaerat illum
+                                doloremque.
+                            </p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end client section  -->
+
+    <!-- start software section  -->
+
+    <section>
+
+        <div class="container-fluid">
+
+            <!-- start title  -->
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Software</h2>
+                <p class="text-secondary lead">Projects We Successfully Developed.One look is worth a thousand words.
+                </p>
+
+            </div>
+            <!-- end title  -->
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+
+                    <img src="https://imgeng.jagran.com/images/2023/jun/Android%2014%20(1)1686146518996.jpg"
+                        class="img-thumbnail" alt="andriod">
+                    <h3 class="text-warning my-3">Andriod Application</h3>
+                    <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industaty.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+
+                    <img src="https://mytechmyanmar.com/wp-content/uploads/2020/04/appstore.jpg" class="img-thumbnail"
+                        alt="ios">
+                    <h3 class="text-warning my-3">IOS Application</h3>
+                    <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industaty.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+
+                    <img src="https://i.ytimg.com/vi/8WbyB_2HthM/maxresdefault.jpg" class="img-thumbnail" alt="linux">
+                    <h3 class="text-warning my-3">Linux Application</h3>
+                    <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industaty.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+
+                    <img src="https://i.pcmag.com/imagery/lineups/06xskoAKsVIlA7WdtvUGQmT-1.1577756249.fit_lim.size_1182x667.jpg"
+                        class="img-thumbnail" alt="window">
+                    <h3 class="text-warning my-3">Windows Application</h3>
+                    <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industaty.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end software section  -->
+
+    <!-- start team section  -->
+
+    <section class="bg-secondary p-5">
+
+        <div class="container-fluid">
+
+            <!-- start title  -->
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Team</h2>
+            </div>
+            <!-- end title  -->
+
+            <div class="row">
+
+                <div class="col-lg-4 col-sm-10 mx-auto mb-3">
+                    <div class="card">
+                        <img src="https://www.boemagazine.com/wp-content/uploads/2019/11/blur-businesswoman-caucasian-941555.jpg"
+                            class="img-thumbnail" alt="user1">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Ms.Khin Myat Noe</h3>
+                            <p class="card-subtitle lead">Operation Manager</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="float-end">
+                                <a href="#" target="_blank"><i class="fab fa-facebook fa-2x text-primary"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter fa-2x text-info"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-youtube fa-2x text-danger"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-10 mx-auto mb-3">
+                    <div class="card">
+                        <img src="https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/what-is-the-difference-web-developer-web-designer.jpg"
+                            class="img-thumbnail" alt="user2">
+                        <div class="card-body">
+                            <h3 class="card-title">Mr.Pyae Phyo Paing</h3>
+                            <p class="card-subtitle lead">Founder & CEO</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="float-end">
+                                <a href="#" target="_blank"><i class="fab fa-facebook fa-2x text-primary"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter fa-2x text-info"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-youtube fa-2x text-danger"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-10 mx-auto mb-3">
+                    <div class="card">
+                        <img src="https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/Sam-CF.jpg"
+                            class="img-thumbnail" alt="user3">
+                        <div class="card-body">
+                            <h3 class="card-title">Mr.Htet Paing</h3>
+                            <p class="card-subtitle lead">Project Manager</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="float-end">
+                                <a href="#" target="_blank"><i class="fab fa-facebook fa-2x text-primary"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter fa-2x text-info"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-youtube fa-2x text-danger"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- end team section  -->
+
+    <!-- start public interest section  -->
+
+    <section class="py-5">
+
+        <div class="container-fluid">
+
+            <!-- start title  -->
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Public Interest</h2>
+                <p class="text-secondary lead">Projects We Successfully Developed.One look is worth a thousand words.
+                </p>
+
+            </div>
+            <!-- end title  -->
+
+            <div class="row">
+
+                <div class="col-lg-6 col-sm-10 mx-auto">
+                    <h3>Ebook</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-primary" style="width: 25%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+
+                    <h3>Andriod Application</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-secondary" style="width: 25%;"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+
+                    <h3>IOS Application</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-success" style="width: 15%;" aria-valuenow="15"
+                            aria-valuemin="0" aria-valuemax="100">15%</div>
+                    </div>
+
+                    <h3>Linux Application</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 5%;" aria-valuenow="5"
+                            aria-valuemin="0" aria-valuemax="100">5%</div>
+                    </div>
+
+                    <h3>Window Application</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-secondary" style="width: 30%;"
+                            aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end public interest section  -->
+
+    <!-- start pricing section  -->
+
+    <section class="bg-secondary p-5">
+
+        <div class="container-fluid">
+
+            <!-- start title  -->
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Pricing</h2>
+                <p class="text-light lead">Projects We Successfully Developed.One look is worth a thousand words.</p>
+
+            </div>
+            <!-- end title  -->
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-10 mx-auto mb-3">
+
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>BLOG SITE / FREE</h5>
+                            <h6>$0/month</h6>
+                            <hr>
+                            <ul class="list-group">
+                                <li class="list-group-item">Single User</li>
+                                <li class="list-group-item">5GB Storage</li>
+                                <li class="list-group-item">Unlimited Public Projects</li>
+                                <li class="list-group-item">Community Access</li>
+                                <li class="list-group-item">Dedicate Phone Support</li>
+                                <li class="list-group-item">Free Subdomain</li>
+                                <li class="list-group-item">Monthly Status Report</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer">
+
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-warning text-uppercase">checkout</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-10 mx-auto mb-3">
+
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>ECOMMERCE SITE / PLUS</h5>
+                            <h6>$9/month</h6>
+                            <hr>
+                            <ul class="list-group">
+                                <li class="list-group-item">Single User</li>
+                                <li class="list-group-item">5GB Storage</li>
+                                <li class="list-group-item">Unlimited Public Projects</li>
+                                <li class="list-group-item">Community Access</li>
+                                <li class="list-group-item">Dedicate Phone Support</li>
+                                <li class="list-group-item">Free Subdomain</li>
+                                <li class="list-group-item">Monthly Status Report</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer">
+
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-warning text-uppercase">checkout</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-10 mx-auto mb-3">
+
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>DYNAMIC SITE / PRO</h5>
+                            <h6>$/49month</h6>
+                            <hr>
+                            <ul class="list-group">
+                                <li class="list-group-item">Single User</li>
+                                <li class="list-group-item">5GB Storage</li>
+                                <li class="list-group-item">Unlimited Public Projects</li>
+                                <li class="list-group-item">Community Access</li>
+                                <li class="list-group-item">Dedicate Phone Support</li>
+                                <li class="list-group-item">Free Subdomain</li>
+                                <li class="list-group-item">Monthly Status Report</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer">
+
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-warning text-uppercase">checkout</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end pricing section  -->
+
+            <!-- elfsight for viber  -->
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
+            <!-- elfsight for viber  -->
+            <div class="elfsight-app-844a31e6-cd56-4624-9d9c-2f7b4d73c447" data-elfsight-app-lazy></div>
+        
+
+    <!-- start contact section  -->
+
+    <section class="p-5">
+
+        <div class="container-fluid">
+
+            <!-- start title  -->
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Contact</h2>
+
+            </div>
+            <!-- end title  -->
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title">Office Location</h5>
+                        </div>
+                        <div class="card-body">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59212.29842837168!2d96.0743533008605!3d21.94344359663343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6dbb1bebb25d%3A0xc69c1c357a3004bd!2sMingalar%20Mandalay%20Hotel!5e0!3m2!1sen!2smm!4v1709821671125!5m2!1sen!2smm"
+                                class="maps" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="card-footer">
+                            <p>Phone: 0942204225</p>
+                            <p>Email: info@ptt.com</p>
+                            <p>Address: No.123, Aung San St,Mandalay Myanmar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
+                    <div class="text-center text-secondary">
+                        <h3>Got Question ?</h3>
+                        <p>Stay Connected</p>
+                    </div>
+                    <form action="" method="">
+                        <div class="col-md-12 form-group mb-3">
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" id="name" class="form-control form-control-sm rounded-0"
+                                placeholder="Enter your Name: ">
+                        </div>
+
+                        <div class="col-md-12 form-group mb-3">
+                            <label for="name">Email: </label>
+                            <input type="email" name="email" id="email" class="form-control form-control-sm rounded-0"
+                                placeholder="Enter your Email: ">
+                        </div>
+
+                        <div class="col-md-12 form-group mb-3">
+                            <label for="name">Message: </label>
+                            <textarea name="message" id="message" class="form-control form-control-sm rounder-0"
+                                placeholder="Enter your message: " rows="3"></textarea>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-warning rounded-0">
+                                Submit
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end contact section  -->
+
+    
+
+    <!-- start footer section  -->
+
+    <footer class="bg-dark py-3">
+
+    
+
+        <div class="container-fluid">
+            <div class="col-12 text-center text-light">
+                <p>
+                    &#169; Copyright <span id="autoyear"></span> - Make by PTT Co.,Ltd.
+                </p>
+            </div>
+        </div>
+
+    
+    </footer>
+
+    <!-- end footer section  -->
+
+    <!-- start modal area  -->
+
+        <!-- size 
+        1 standard size
+            modal-xl
+            modal-lg
+            modal-md => default
+            modal-sm
+        2 full size
+            modal-fullscreen
+            modal-fullscreen-sm-down =>sm size out mr pl apyae paw, ahtet mr default size nae paw
+            modal-fullscreen-md-down
+
+
+        
+        -->
+
+    <!-- start get in touch  -->
+
+    <div id="loginmodal" class="modal">
+
+        <div class="modal-dialog modal-sm modal-dialog-centered"> <!-- size py yin d htel mr pay-->
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Login Here
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-md-12">
+                        <form action="" method="">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email"
+                                    class="form-control form-control-sm rounded-0" placeholder="Enter your email">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password"
+                                    class="form-control form-control-sm rounded-0" placeholder="Enter your password">
+                            </div>
+
+                            <div class="d-flex justify-content-end">
+                                <button type="reset" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">
+                                    Cancle
+                                </button>
+                                <button type="submit" class="btn btn-primary btn-sm ms-3">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>
+                        Not Yet Register ! ,
+                        <a href="#">
+                            Sign-up here
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- end get in touch  -->
+
+    <!-- end modal area  -->
+
+    <!-- bootstrap cs1 js1  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- jquery js1  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+    
+
+
+    <script>
+
+
+        const autoyear = document.getElementById('autoyear');
+        const getyear = new Date().getUTCFullYear();
+
+        autoyear.innerHTML = getyear;
+
+
+    </script>
+
+
+</body>
+
+</html>
+
+
